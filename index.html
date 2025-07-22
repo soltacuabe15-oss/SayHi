@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi sitio SayHi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia de Idiomas SayHi!</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>¡Bienvenida a mi página!</h1>
-  <p>Esto es una prueba de GitHub Pages. Ahora sí funciona 🙂</p>
+  <header>
+    <h1>Academia de Idiomas SayHi!</h1>
+    <p>¡Aprendé el idioma que siempre soñaste!</p>
+  </header>
+
+  <section class="idiomas">
+    <h2>Idiomas que ofrecemos</h2>
+    <ul>
+      <li>Inglés</li>
+      <li>Portugués</li>
+      <li>Francés</li>
+      <li>Italiano</li>
+    </ul>
+  </section>
+
+  <section class="niveles">
+    <h2>Modalidades y niveles</h2>
+    <p>Ofrecemos clases presenciales y virtuales para todos los niveles:</p>
+    <ul>
+      <li>Básico</li>
+      <li>Intermedio</li>
+      <li>Avanzado</li>
+    </ul>
+  </section>
+
+  <section class="horarios">
+    <h2>Horarios y duración</h2>
+    <p>Lunes a viernes de 9:00 a 20:00 hs</p>
+    <p>Cada curso tiene una duración de 3 meses</p>
+  </section>
+
+  <section class="formulario">
+    <h2>Inscribite ahora</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="idioma">Idioma de interés:</label>
+      <select id="idioma" name="idioma">
+        <option>Inglés</option>
+        <option>Portugués</option>
+        <option>Francés</option>
+        <option>Italiano</option>
+      </select>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>📍 Dirección: Calle 123, Artigas, Uruguay</p>
+    <p>📞 Teléfono: 099 123 456</p>
+    <p>✉️ Email: contacto@SayHi!.edu.uy</p>
+  </footer>
 </body>
 </html>
